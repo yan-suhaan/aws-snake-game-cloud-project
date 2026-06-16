@@ -1,1 +1,0 @@
-# aws-snake-game-cloud-project

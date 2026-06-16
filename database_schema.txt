@@ -1,0 +1,10 @@
+CREATE DATABASE snake_db;
+
+USE snake_db;
+
+CREATE TABLE leaderboard (
+id INT AUTO_INCREMENT PRIMARY KEY,
+player_name VARCHAR(100),
+score INT,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
